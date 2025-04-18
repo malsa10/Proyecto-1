@@ -1,0 +1,13 @@
+prefix=C:/Users/marco/desktop/Proyecto_Data/entorno_data/Library
+exec_prefix=C:/Users/marco/desktop/Proyecto_Data/entorno_data/Library
+libdir=C:/Users/marco/desktop/Proyecto_Data/entorno_data/Library/lib
+sharedlibdir=C:/Users/marco/desktop/Proyecto_Data/entorno_data/Library/lib
+includedir=C:/Users/marco/desktop/Proyecto_Data/entorno_data/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
